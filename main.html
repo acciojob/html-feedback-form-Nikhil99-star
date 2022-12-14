@@ -12,14 +12,20 @@
       <input type="text" id="name" minlength="3" maxlength="50" /><br /><br />
       <label for="portfolio">User's Webpage</label><br />
       <input type="url" id="portfolio" /><br><br>
-      <label for="favcolor">Favourite Color:</label>
+      <p>Choose your monster's colors:</p>
 
-      <select type="color" id="favColor">
-        <option value="Red">Red</option>
-        <option value="White">White</option>
-        <option value="Yellow">Yellow</option>
-        <option value="Blue">Blue</option>
-      </select><br>
+<div>
+    <input type="color" id="favColor" name="head"
+           value="#e66465">
+    <label for="color">Red</label>
+</div>
+
+<div>
+    <input type="color" id="favColor" name="body"
+            value="#f6b73c">
+    <label for="color">Pink</label>
+</div>
+
 	  <label for="range">Choose the range:</label>
 	  <div class="slidecontainer">
 		<input type="range" min="1" max="100" value="50" class="slider" id="likeness">
